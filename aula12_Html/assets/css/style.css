@@ -4,22 +4,38 @@ header {
     background-color: #ffb90f;
     margin-top: 70px;
     position: relative;
-}
+  }
 
-.logo {
-    width: 180px;
+  .navi {
+    display: inline-block;
+  }
+
+  header nav img {
+    width: 200px;
     position: absolute;
-    top: -55px;
-}
-
-header nav ul {
+    top: -65px;
+  }
+  
+  header nav ul {
     list-style: none;
     height: 60px;
     margin-left: 160px;
-}
+  }
+  
+  header nav ul li { 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0 0 50px;
+  }
 
-li {
-    display: inline-block;
-    
-}
+  header nav ul li a { 
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  header nav form {
+    margin-left: 400px;
+  }
+
 
