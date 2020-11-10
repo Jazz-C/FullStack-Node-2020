@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contato</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Contato</h1>
+    <p>Bem-vinda</p>
+    <hr>
+    <%
+
+    let contatos = [
+    {nome:'Jess', email: 'Jess@email.com'},
+    {nome:'Alan', email: 'Alan@email.com'},
+    {nome: 'Bernardo', email: 'Bernardo@email.com'}
+    ];
+
+    %>
+
+    <ul>
+      <% for (let contato of contatos) { %>
+        <li> Ola. Sou <%= contato.nome %>, meu email e <%= contato.email%> </li>
+      <% } %>
+    </ul>
+
+  </body>
+</html>
+

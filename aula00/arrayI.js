@@ -27,5 +27,6 @@ pessoa.push("Jess");
 console.log(pessoa.lastIndexOf("Jess")); 
     // Ultima ocorrência
 
+ 
 
 
